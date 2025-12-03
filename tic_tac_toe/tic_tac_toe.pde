@@ -18,7 +18,7 @@ void setup() {
   Y = height/2;
   strokeWeight(1);  // 1 pixel stroke width for grid
   drawGrid();
-  strokeWeight(4);  // 4 pixel width for shapes
+  strokeWeight(10);  // 10 pixel width for shapes
   placeX();
   println("Press keys 0-8 only");
 }
