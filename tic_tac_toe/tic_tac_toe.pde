@@ -8,9 +8,9 @@
  int index = 1;
  int winner = 0;
  int invalidKey = 0;
-
+ 
 void setup() {
-
+  
   size(500, 500);
   background(220);
   strokeWeight(8);
@@ -21,28 +21,28 @@ void setup() {
 
 void draw() {  
   if (keyPressed || index == 5){   // Check for key pressed or no one wins
-
+     
          if (index >= 5){
        switch (winner){
-
+         
          case 0:
            println("Game has ended - No one wins");
            break;
-
+           
          case YOU:
            println("Game has ended - You Win !!");
            break;
-
+           
          case COMPUTER:
            println("Game has ended - Computer Wins !!");
            break;
-
+         
          default:
            break;
-
+           
        }
      }
-     else {
+     else {       
        println("Game is still in play . . .");
        processKey();
        if (invalidKey == 0){
