@@ -222,7 +222,7 @@ void test(){  // tests if there is a winner
     index = 5; // will prevent added entries
   }
   else if (winner == YOU && index < 5){
-    println ("GAME OVER - USER WON!! YAY");
+    println ("GAME OVER - USER WON!! YAY!!");
     index = 5; // will prevent added entries
   }
 }
