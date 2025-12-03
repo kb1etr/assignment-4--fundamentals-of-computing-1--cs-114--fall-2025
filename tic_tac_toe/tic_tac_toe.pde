@@ -30,7 +30,15 @@ void draw() {
        switch (winner){
 
          case 0:
-           println("Game has ended - No one won - A DRAW");
+           println("Game has ended - No one won - A DRAW"); // Subsequent key presses after a game has ended
+           break;
+ 
+         case YOU:
+           println("Game has ended - User Won !!"); // Subsequent key presses after a game has ended
+           break;
+
+         case COMPUTER:
+           println("Game has ended - Computer Won !!"); // Subsequent key presses after a game has ended
            break;
 
          default:
