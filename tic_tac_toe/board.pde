@@ -217,12 +217,12 @@ void test(){  // tests if there is a winner
   else if (gameBoard[2] + gameBoard[4] + gameBoard[6] == 3) winner = COMPUTER;
   else if (gameBoard[2] + gameBoard[4] + gameBoard[6] == 15) winner = YOU;
 
-  if (winner == COMPUTER  && index < 5){  // print this only once
-    println ("GAME OVER - COMPUTER WON!");
+  if (winner == COMPUTER  && index < 5){
+    println ("GAME OVER - COMPUTER WON!! So Sad");
     index = 5; // will prevent added entries
   }
-  else if (winner == YOU && index < 5){    // print this only once
-    println ("GAME OVER - USER WON!");
+  else if (winner == YOU && index < 5){
+    println ("GAME OVER - USER WON!! YAY");
     index = 5; // will prevent added entries
   }
 }

@@ -30,15 +30,7 @@ void draw() {
        switch (winner){
 
          case 0:
-           println("Game has ended - No one won");
-           break;
-
-         case YOU:
-           println("Game has ended - User Won !!");
-           break;
-
-         case COMPUTER:
-           println("Game has ended - Computer Won !!");
+           println("Game has ended - No one won - A DRAW");
            break;
 
          default:
