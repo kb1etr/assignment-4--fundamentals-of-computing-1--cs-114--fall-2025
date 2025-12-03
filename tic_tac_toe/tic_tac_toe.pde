@@ -13,7 +13,7 @@ void setup() {
 
   size(500, 500);
   background(220);
-  pixelDensity(2);
+  pixelDensity(1);
   X = width/2;
   Y = height/2;
   strokeWeight(1);  // 1 pixel stroke width for grid
@@ -24,21 +24,21 @@ void setup() {
 }
 
 void draw() {  
-  if (keyPressed || index == 5){   // Check for key pressed or for 'no one wins'
+  if (keyPressed || index == 5){  // Check for key pressed or for 'no one wins'
 
          if (index >= 5){
        switch (winner){
 
          case 0:
-           println("Game has ended - No one won - A DRAW"); // Subsequent key presses after a game has ended
+           println("Game has ended - No one won - A DRAW");  // Subsequent key presses after a game has ended
            break;
  
          case YOU:
-           println("Game has ended - User Won !!"); // Subsequent key presses after a game has ended
+           println("Game has ended - User Won !!");  // Subsequent key presses after a game has ended
            break;
 
          case COMPUTER:
-           println("Game has ended - Computer Won !!"); // Subsequent key presses after a game has ended
+           println("Game has ended - Computer Won !!");  // Subsequent key presses after a game has ended
            break;
 
          default:
