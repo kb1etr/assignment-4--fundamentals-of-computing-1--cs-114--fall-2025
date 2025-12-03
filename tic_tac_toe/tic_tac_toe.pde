@@ -17,6 +17,7 @@ void setup() {
   X = width/2;
   Y = height/2;
   placeX();
+  pixelDensity(1);
 }
 
 void draw() {  
