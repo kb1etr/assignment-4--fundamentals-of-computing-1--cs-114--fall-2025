@@ -1,8 +1,7 @@
-
 // Global variables
  int X; 
  int Y;
- int circleDiameter = 450/3; // 500/3
+ int circleDiameter = 450/3;
  int size;
  int [] gameBoard = new int [9];
  int square;
@@ -15,7 +14,6 @@ void setup() {
   size(500, 500);
   background(220);
   pixelDensity(2);
-  //fill(255, 0, 0);
   X = width/2;
   Y = height/2;
   strokeWeight(1);  // 1 pixel stroke width for grid

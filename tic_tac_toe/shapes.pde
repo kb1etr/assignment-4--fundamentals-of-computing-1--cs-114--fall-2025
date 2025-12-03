@@ -1,4 +1,4 @@
-void drawX(){              // Draws an 'X' on the game board
+void drawX(){  // Draws an 'X' on the game board
   line (X-450/6, Y-450/6, X+450/6, Y+450/6);
   line (X+450/6, Y-450/6, X-450/6, Y+450/6);
 }

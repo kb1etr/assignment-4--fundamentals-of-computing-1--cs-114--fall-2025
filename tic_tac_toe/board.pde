@@ -115,12 +115,12 @@ void processKey(){  // reads key input and marks the game board position as fill
 }
 
 void placeCircle(){ 
-   fill(220);// 220 255,255,255
+   fill(220);
    ellipse(X, Y, circleDiameter, circleDiameter);
 }
 
 void placeX(){  
-  pickPosition();    // Only place an X in a box that is not filled
+  pickPosition(); // Only place an X in a box that is not filled
   drawX();
 }
 
