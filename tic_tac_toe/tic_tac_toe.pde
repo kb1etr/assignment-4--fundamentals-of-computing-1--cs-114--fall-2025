@@ -2,7 +2,7 @@
 // Global variables
  int X; 
  int Y;
- int circleDiameter = 500/3;
+ int circleDiameter = 450/3; // 500/3
  int size;
  int [] gameBoard = new int [9];
  int square;

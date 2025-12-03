@@ -115,7 +115,7 @@ void processKey(){  // reads key input and marks the game board position as fill
 }
 
 void placeCircle(){ 
-   fill(255,255,255);
+   fill(220);// 220 255,255,255
    ellipse(X, Y, circleDiameter, circleDiameter);
 }
 
