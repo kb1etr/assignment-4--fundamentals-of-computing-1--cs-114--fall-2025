@@ -9,10 +9,9 @@
  int index = 1;
  int winner = 0;
  int invalidKey = 0;
- 
- 
+
 void setup() {
-  
+
   size(500, 500);
   background(220);
   pixelDensity(2);
@@ -28,25 +27,24 @@ void setup() {
 
 void draw() {  
   if (keyPressed || index == 5){   // Check for key pressed or for 'no one wins'
-     
+
          if (index >= 5){
        switch (winner){
-         
+
          case 0:
            println("Game has ended - No one won");
            break;
-           
+
          case YOU:
            println("Game has ended - User Won !!");
            break;
-           
+
          case COMPUTER:
            println("Game has ended - Computer Won !!");
            break;
-         
+
          default:
            break;
-           
        }
      }
      else {       
@@ -61,5 +59,5 @@ void draw() {
      }
      delay(500);
      index++; 
-  }    
+  }
 }
