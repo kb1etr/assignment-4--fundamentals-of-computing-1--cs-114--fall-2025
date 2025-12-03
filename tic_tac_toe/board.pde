@@ -120,7 +120,7 @@ void placeCircle(){
 }
 
 void placeX(){  
-  pickPosition(); // Only place an X in a box that is not filled
+  pickPosition();  // Only place an X in a box that is not filled
   drawX();
 }
 
@@ -197,7 +197,7 @@ void pickPosition(){  // determines the next computer position by random number,
   }
 }
 
-void test(){      // tests if there is a winner
+void test(){  // tests if there is a winner
   if (gameBoard[0] + gameBoard[1] + gameBoard[2] == 3) winner = COMPUTER;  // checking the rows
   else if (gameBoard[0] + gameBoard[1] + gameBoard[2] == 15) winner = YOU; 
   else if (gameBoard[3] + gameBoard[4] + gameBoard[5] == 3) winner = COMPUTER; 

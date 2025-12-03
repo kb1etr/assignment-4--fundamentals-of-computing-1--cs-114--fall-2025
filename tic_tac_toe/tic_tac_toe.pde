@@ -45,7 +45,7 @@ void draw() {
            break;
        }
      }
-     else {       
+     else {
        println("Game is still in play . . .");
        processKey();
        if (invalidKey == 0){
